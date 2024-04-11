@@ -1,0 +1,175 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font: 1.6rem;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 65, 83);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    min-width: 475px;
+}
+
+.main__title {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+.control__number {
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(6, 81, 140);
+    opacity: 0.8;
+}
+
+.main__generate {
+    background: white;
+    padding: 2rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.generate__mail {
+    font-size: 1.8rem;
+    color: rgb(24, 23, 23);
+    font-weight: 600;
+}
+
+.generate__icon {
+    font-size: 2.1rem;
+    color: rgb(6, 81, 140);
+}
+
+.main__form {
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+}
+
+.control__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.control__text {
+    color: rgb(24, 23, 23);
+    font-weight: 600;
+    font-size: 1.7rem;
+    opacity: 0.8;
+}
+
+.form__control {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.control__range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgb(24, 23, 23);
+    border-radius: 0.2rem;
+    height: 0.8rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+   
+}
+
+.control__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.control__check {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+
+.control__check:checked {
+    background-image: url(/Proyecto-6/assets/img/check.svg);
+    background-size: contain;
+}
+
+
+.control__label {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+
+.control__input{
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(24, 23, 23);
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    outline: none;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.form__submit{
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(6, 81, 140);
+    transition: all 300ms linear;
+}
+
+
+.form__submit:hover{
+    background-color: rgb(32, 65, 83);
+}
