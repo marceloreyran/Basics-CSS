@@ -24,7 +24,7 @@ body {
 .layout__title {
     font-size: 2.5rem;
     text-align: center;
-    color: azure;
+    color: #88c010;
     margin: 0;
 
 }
@@ -72,13 +72,45 @@ body {
 .layout__results {
     display: flex;
     margin-top: 1.5rem;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     border: 0.5rem solid #88c010;
     background-color: white;
     border-radius: 1rem;
-    width: 80%;
-
-    
+    width: 80%;    
 }
+
+
+.results__result{
+    width: 25%;
+    border-right: 1px solid #ddd;
+}
+
+.results__result:nth-child(2) {
+    width: 30%;
+}
+
+.results__result:last-child {
+    border: none;
+}
+
+.result__subtitle {
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #88c010;
+}
+
+
+.result__title {    
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s;
+}
+
+
+
