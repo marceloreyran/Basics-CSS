@@ -39,7 +39,6 @@ body {
 
 .search__input{
     width: 100%;
-    text-align: center;
     padding: 1rem;
     border-radius: 1.5rem 0 0 1.5rem;
     border: 0;
@@ -52,10 +51,11 @@ body {
 .search__input::placeholder {
     font-weight: 500;
     color: #959595;
+    
 }
 
 .search__btn{
-    padding:  2.2rem;
+    padding: 2.2rem;
     border-radius: 0 1.5rem 1.5rem 0;
     border: none;
     outline: none;
@@ -67,4 +67,18 @@ body {
     font-size: 1.8rem;
     color: white;
 
+}
+
+.layout__results {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+    padding: 1.5rem;
+    margin-top: 4rem;
+    border: 0.5rem solid #88c010;
+    background-color: white;
+    border-radius: 1rem;
+    width: 80%;
+
+    
 }
