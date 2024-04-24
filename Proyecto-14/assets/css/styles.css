@@ -1,0 +1,49 @@
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.layout__main {
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__container{
+    background-color: mediumturquoise;
+    min-width: 45rem;
+    min-height: 45rem;
+    border-radius: 100%;
+    padding: 3rem;
+
+}
+
+.main__crono {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    border: 10px solid greenyellow;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
