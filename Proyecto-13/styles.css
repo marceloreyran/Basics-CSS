@@ -1,0 +1,26 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1 {
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 40px;
+
+}
+
+
+h3{
+    text-align: center;
+    word-spacing: 15px;
+
+}
+
+
+p{
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 10px;
+
+}
