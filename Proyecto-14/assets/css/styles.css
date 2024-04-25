@@ -37,13 +37,14 @@ body {
 
 .main__crono {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: azure;
-    border: 10px solid greenyellow;
-    width: 100%;
-    height: 100%;
+    border: 1rem solid green;
+    min-width: 45rem;
+    min-height: 45rem;
     border-radius: 100%;
+    border-left-color: transparent ;
+   
 }
