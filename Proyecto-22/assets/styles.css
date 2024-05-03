@@ -1,0 +1,131 @@
+html {
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.layout__main {
+    min-width: 50rem;
+
+}
+
+.main__header {
+    padding: 3rem;
+    background-color: rgb(68, 206, 206);
+    color: azure;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.header__subtitle {
+    margin-bottom: 0.5rem;
+}
+
+.main__grap {
+    background-color: azure;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.grap__title{
+    font-size: 2.4rem;
+    margin-bottom: 6rem;
+}
+
+.grap__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.grap__bar {
+    width: calc(14% - 0.5rem);
+    min-height: 2rem;
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+}
+
+.grap__bar--1 {
+
+    height: 10rem;
+    background-color: blueviolet;
+}
+
+.grap__bar--2 {
+    height: 6rem;
+
+}
+
+.grap__bar--3{
+    height: 3rem;
+}
+
+.grap__bar--4{
+    height: 1rem;
+}
+
+.grap__bar--5{
+
+    height: 8rem;
+}
+
+.grap__bar--6{
+
+    height: 2rem;
+}
+
+.grap__bar--7{
+    height: 1rem;
+}
+
+.grap__range{
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.range__item{
+   width: calc(14% - 0.5rem);
+   text-align: center; 
+   font-size: 1.2rem;
+   font-weight: 600;
+   color: gray;
+}
+
+.grap__result {
+    padding: 2rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.result__title{
+    font-size: 1.4rem;
+    color: gray;
+
+
+}
+
+.result__age {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 0.2rem;
+}
