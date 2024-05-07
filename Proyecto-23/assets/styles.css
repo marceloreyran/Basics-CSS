@@ -1,0 +1,30 @@
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+
+.layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.layout__buttons{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
