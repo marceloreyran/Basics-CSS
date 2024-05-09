@@ -17,7 +17,7 @@
 <body>
 
     <div class="layout">
-        
+
         <main class="layout__main">
 
             <section class="main__left">
@@ -27,10 +27,11 @@
                             <span class="steps__number">1</span>
                         </div>
                         <div class="steps__content">
-                            <span class="steps__title">Paso</span>
+                            <span class="steps__title">Paso 1</span>
                             <span class="steps__description">Crea una cuenta</span>
                         </div>
-
+                    </li>
+                    <li class="steps__item">
                         <div class="steps__container-number">
                             <span class="steps__number">2</span>
                         </div>
@@ -38,24 +39,29 @@
                             <span class="steps__title">Paso 2</span>
                             <span class="steps__description">Dirección</span>
                         </div>
+
+                    </li>
+
+                    <li class="steps__item">
                         <div class="steps__container-number">
                             <span class="steps__number">3</span>
                         </div>
                         <div class="steps__content">
                             <span class="steps__title">Paso 3</span>
                             <span class="steps__description">Forma de Pago</span>
-                            <div class="steps__container-number">
-                                <span class="steps__number">4</span>
-                            </div>
-                            <div class="steps__content">
-                                <span class="steps__title">Paso 4</span>
-                                <span class="steps__description">Confirmación</span>
-                            </div>
+                        </div>
+                    </li>
+                    <li class="steps__item">
+                        <div class="steps__container-number">
+                            <span class="steps__number">4</span>
+                        </div>
+                        <div class="steps__content">
+                            <span class="steps__title">Paso 4</span>
+                            <span class="steps__description">Confirmación</span>
                         </div>
                     </li>
                 </ol>
             </section>
-
             <section class="main__right">
 
                 <header class="main__header">
@@ -70,7 +76,8 @@
                     </div>
                     <div class="form__control">
                         <label class="form__label">Apellidos</label>
-                        <input class="form__input" type="text" name="subname" id="subname" placeholder="Introduce tu Apellido">
+                        <input class="form__input" type="text" name="subname" id="subname"
+                            placeholder="Introduce tu Apellido">
                     </div>
                     <div class="form__control">
                         <label class="form__label">Email</label>
@@ -78,14 +85,15 @@
                     </div>
                     <div class="form__control">
                         <label class="form__label">Fecha de Nacimiento</label>
-                        <input class="form__input" type="date" name="fecha" id="fecha">       
+                        <input class="form__input" type="date" name="fecha" id="fecha">
                     </div>
                     <div class="form__control">
                         <label class="form__label">Contraseña</label>
-                        <input class="form__input" type="password" name="password" id="password" placeholder="Introduce tu Contraseña">
+                        <input class="form__input" type="password" name="password" id="password"
+                            placeholder="Introduce tu Contraseña">
                 </form>
-                <br>
-                <button class="buttton__btn">Siguiente</button>
+
+                <input type="submit" value="Siguiente" class="form__btn">
             </section>
         </main>
     </div>
