@@ -19,6 +19,7 @@ body{
     gap: 8rem;
     padding: 3rem;
     margin-top: 5rem;
+  
 }
 
 .layout__article{
@@ -28,6 +29,7 @@ body{
     cursor: pointer;
     border: 0.5rem;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .article__img{
