@@ -48,12 +48,12 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(231, 141,91);
+    background-color: rgb(255, 165, 0);
     position: absolute;
     margin-top: 0;
     top: 0;
     padding: 3rem;
-    color: white;
+    color: azure;
     transform: translateX(-35rem);
     transition: all 300ms linear;
 }
@@ -71,7 +71,7 @@ body{
 }
 
 .layout__article--2 .article__overlay {
-    background-color: rgb(53, 127, 53);
+    background-color: rgb(222, 184, 135);
     height: 50%;
     position: relative;
     transform: translateY(35rem);
@@ -95,3 +95,4 @@ body{
 .layout__article--3:hover > .article__overlay {
     transform: translateY(0);
 }
+
