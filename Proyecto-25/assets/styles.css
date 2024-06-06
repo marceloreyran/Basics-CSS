@@ -48,7 +48,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(255, 165, 0);
+    background-color: rgb(173, 255, 47);
     position: absolute;
     margin-top: 0;
     top: 0;
@@ -71,7 +71,7 @@ body{
 }
 
 .layout__article--2 .article__overlay {
-    background-color: rgb(222, 184, 135);
+    background-color: rgb(255, 69, 0);
     height: 50%;
     position: relative;
     transform: translateY(35rem);
